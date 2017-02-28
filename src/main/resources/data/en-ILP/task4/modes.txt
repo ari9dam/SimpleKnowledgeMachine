@@ -1,0 +1,2 @@
+#modeh holdsAt(relative_position(+arg2,+arg2,$direction),+time).
+#modeb observed(relative_position(+arg2,+arg2,$direction),+time).

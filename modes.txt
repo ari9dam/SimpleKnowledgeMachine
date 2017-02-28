@@ -1,0 +1,21 @@
+#modeh initiatedAt(location(+arg3,+arg2),+time).
+#modeh terminatedAt(location(+arg3,+arg2),+time).
+
+#modeb happensAt(get(-arg1,+arg3),+time).
+#modeb happensAt(pick_up(-arg1,+arg3),+time).
+#modeb happensAt(discard(-arg1,+arg3),+time).
+#modeb happensAt(put_down(-arg1,+arg3),+time).
+#modeb happensAt(leave(-arg1,+arg3),+time).
+#modeb happensAt(drop(-arg1,+arg3),+time).
+#modeb happensAt(grab(-arg1,+arg3),+time).
+#modeb happensAt(take(-arg1,+arg3),+time).
+
+#modeb happensAt(travel(+arg1,-arg2),+time).
+#modeb happensAt(go(+arg1,-arg2),+time).
+#modeb happensAt(go_back(+arg1,-arg2),+time).
+#modeb happensAt(move(+arg1,-arg2),+time).
+#modeb happensAt(journey(+arg1,-arg2),+time).
+#modeb happensAt(get(-arg1,+arg3),+time).
+
+#modeb neq(+arg2,+arg2).
+#modeb lessThan(+time,+time).

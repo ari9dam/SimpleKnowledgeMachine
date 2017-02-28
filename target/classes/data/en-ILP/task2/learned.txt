@@ -1,0 +1,1 @@
+initiatedAt(location(V1,V2),V3):-holdsAt(location(V5,V2),V4),holdsAt(carrying(V5,V1),V3),next(V4,V3),arg3(V1),arg2(V2),time(V3),arg1(V5),time(V4).

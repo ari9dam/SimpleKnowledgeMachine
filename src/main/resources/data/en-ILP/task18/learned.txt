@@ -1,0 +1,3 @@
+holdsAt(fit(V1,V2),V3):-holdsAt(bigger(V2,V1),V3),arg3(V1),arg3(V2),time(V3).
+holdsAt(bigger(V1,V2),V3):-holdsAt(fit(V2,V1),V3),arg3(V1),arg3(V2),time(V3).
+holdsAt(fit(V1,V2),V3):-holdsAt(bigger(V4,V1),V3),holdsAt(bigger(V2,V4),V3),arg3(V1),arg3(V2),time(V3),arg3(V4).

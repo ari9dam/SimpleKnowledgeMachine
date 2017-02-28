@@ -1,0 +1,9 @@
+minitiatedAt(location(V1,V2),V3):-or_group(V4,V2),observed(location(V1,V4),V3),arg1(V1),arg2(V2),time(V3),id(V4).
+mterminatedAt(location(V1,V2),V3):-observed(location(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
+terminatedAt(location(V1,V2),V3):-observed(location(V1,V4),V3),arg1(V1),arg2(V2),time(V3),id(V4).
+mterminatedAt(location(V1,V2),V3):-observed(location(V1,V4),V3),arg1(V1),arg2(V2),time(V3),id(V4).
+mterminatedAt(location(V1,V2),V3):-happensAt(journey(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
+mterminatedAt(location(V1,V2),V3):-happensAt(go_back(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
+mterminatedAt(location(V1,V2),V3):-happensAt(travel(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
+mterminatedAt(location(V1,V2),V3):-happensAt(go(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
+mterminatedAt(location(V1,V2),V3):-happensAt(move(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).

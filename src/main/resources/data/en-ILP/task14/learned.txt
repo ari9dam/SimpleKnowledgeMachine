@@ -1,0 +1,4 @@
+before(V1,V2):-timeAt(V1,yesterday),timeAt(V2,morning),time(V1),time(V2).
+before(V1,V2):-timeAt(V1,morning),timeAt(V2,afternoon),time(V1),time(V2).
+before(V1,V2):-timeAt(V1,afternoon),timeAt(V2,evening),time(V1),time(V2).
+before(V1,V2):-timeAt(V1,morning),timeAt(V2,evening),time(V1),time(V2).

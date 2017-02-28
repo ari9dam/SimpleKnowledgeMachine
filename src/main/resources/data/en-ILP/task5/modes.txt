@@ -1,0 +1,35 @@
+%#modeh initiatedAt(f_subj_give(+arg1,+arg3,+arg1),+time).
+%#modeh initiatedAt(f_obj_give(+arg1,+arg3,+arg1),+time).
+%#modeh initiatedAt(f_rec_give(+arg1,+arg3,+arg1),+time).
+%#modeh terminatedAt(f_subj_give(+arg1,+arg3,+arg1),+time).
+%#modeh terminatedAt(f_obj_give(+arg1,+arg3,+arg1),+time).
+#modeh terminatedAt(f_rec_give(+arg1,+arg3,+arg1),+time).
+
+%#modeh initiatedAt(f_give(+arg1,+arg3),+time).
+#modeh terminatedAt(f_give(+arg1,+arg3),+time).
+
+%#modeh initiatedAt(f_receive(+arg1,+arg3),+time).
+%#modeh terminatedAt(f_receive(+arg1,+arg3),+time).
+
+%#modeb initiatedAt(f_receive(-arg1,+arg3),+time).
+%#modeb initiatedAt(f_receive(+arg1,-arg3),+time).
+#modeb initiatedAt(f_give(-arg1,+arg3),+time).
+#modeb initiatedAt(f_give(+arg1,-arg3),+time).
+%#modeb initiatedAt(f_subj_give(-arg1,+arg3,+arg1),+time).
+%#modeb initiatedAt(f_obj_give(+arg1,-arg3,+arg1),+time).
+%#modeb initiatedAt(f_rec_give(+arg1,+arg3,-arg1),+time).
+
+%#modeb happensAt(pass(+arg1,+arg3,+arg1),+time).
+%#modeb happensAt(pass(-arg1,+arg3,+arg1),+time).
+%#modeb happensAt(pass(+arg1,-arg3,+arg1),+time).
+%#modeb happensAt(pass(+arg1,+arg3,-arg1),+time).
+
+%#modeb happensAt(give(+arg1,+arg3,+arg1),+time).
+%#modeb happensAt(give(-arg1,+arg3,+arg1),+time).
+%#modeb happensAt(give(+arg1,-arg3,+arg1),+time).
+%#modeb happensAt(give(+arg1,+arg3,-arg1),+time).
+
+%#modeb happensAt(hand(+arg1,+arg3,+arg1),+time).
+%#modeb happensAt(hand(-arg1,+arg3,+arg1),+time).
+%#modeb happensAt(hand(+arg1,-arg3,+arg1),+time).
+%#modeb happensAt(hand(+arg1,+arg3,-arg1),+time).

@@ -1,0 +1,6 @@
+#modeh initiatedAt(cause_go(+arg1,+arg4),+time).
+#modeh initiatedAt(cause_get(+arg1,+arg4),+time).
+#modeh initiatedAt(possible_go(+arg1,$arg2),+time).
+
+#modeb holdsAt(domain(+arg1,$arg4),+time).
+#modeb holdsAt(domain(+arg1,+arg4),+time).

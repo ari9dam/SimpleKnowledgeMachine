@@ -1,0 +1,2 @@
+initiatedAt(location(V1,V2),V3):-happensAt(mt(V1,V5),V3),holdsAt(relative_position(V2,V4,V5),V3),holdsAt(location(V1,V4),V3),arg1(V1),arg2(V2),time(V3),direction(V5),arg2(V4).
+terminatedAt(location(V1,V2),V3):-happensAt(mt(V1,V4),V3),arg1(V1),arg2(V2),time(V3),direction(V4).

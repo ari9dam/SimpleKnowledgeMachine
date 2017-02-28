@@ -1,0 +1,9 @@
+#modeh initiatedAt(carrying(+arg1,+arg3),+time).
+#modeh terminatedAt(carrying(+arg1,+arg3),+time).
+
+#modeb happensAt(pass(-arg1,+arg3,+arg1),+time).
+#modeb happensAt(pass(+arg1,+arg3,-arg1),+time).
+#modeb happensAt(give(+arg1,+arg3,-arg1),+time).
+#modeb happensAt(give(-arg1,+arg3,+arg1),+time).
+#modeb happensAt(hand(+arg1,+arg3,-arg1),+time).
+#modeb happensAt(hand(-arg1,+arg3,+arg1),+time).

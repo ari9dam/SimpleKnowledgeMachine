@@ -1,0 +1,12 @@
+#modeh minitiatedAt(location(+arg1,+arg2),+time).
+#modeh mterminatedAt(location(+arg1,+arg2),+time).
+#modeh terminatedAt(location(+arg1,+arg2),+time).
+
+#modeb happensAt(travel(+arg1,-arg2),+time).
+#modeb happensAt(go(+arg1,-arg2),+time).
+#modeb happensAt(go_back(+arg1,-arg2),+time).
+#modeb happensAt(move(+arg1,-arg2),+time).
+#modeb happensAt(journey(+arg1,-arg2),+time).
+#modeb observed(location(+arg1,-id),+time).
+#modeb observed(location(+arg1,-arg2),+time).
+#modeb or_group(+id,-arg2).

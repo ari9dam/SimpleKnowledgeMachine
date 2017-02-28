@@ -1,0 +1,5 @@
+#modeh terminatedAt(location(+arg1,+arg2),+time).
+#modeh initiatedAt(location(+arg1,+arg2),+time).
+
+#modeb observed(location(+arg1,-arg2),+time).
+#modeb nobserved(location(+arg1,-arg2),+time).

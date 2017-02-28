@@ -1,0 +1,8 @@
+holdsAt(relative_position(V1,V2,south),V3):-observed(relative_position(V2,V1,north),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,west),V3):-observed(relative_position(V2,V1,east),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,south),V3):-observed(relative_position(V1,V2,south),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,north),V3):-observed(relative_position(V1,V2,north),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,east),V3):-observed(relative_position(V2,V1,west),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,north),V3):-observed(relative_position(V2,V1,south),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,west),V3):-observed(relative_position(V1,V2,west),V3),arg2(V1),arg2(V2),time(V3).
+holdsAt(relative_position(V1,V2,east),V3):-observed(relative_position(V1,V2,east),V3),arg2(V1),arg2(V2),time(V3).

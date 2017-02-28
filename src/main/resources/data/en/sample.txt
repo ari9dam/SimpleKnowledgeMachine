@@ -1,0 +1,15 @@
+1 John journeyed to the bedroom.
+2 Then he journeyed to the office.
+3 Where is John? 	office	1 2
+4 John journeyed to the bedroom.
+5 Afterwards he moved to the bathroom.
+6 Where is John? 	bathroom	4 5
+7 John went to the bedroom.
+8 Then he went back to the hallway.
+9 Where is John? 	hallway	7 8
+10 Sandra travelled to the hallway.
+11 After that she moved to the bathroom.
+12 Where is Sandra? 	bathroom	10 11
+13 John went to the bathroom.
+14 Afterwards he went to the bedroom.
+15 Where is John? 	bedroom	13 14
